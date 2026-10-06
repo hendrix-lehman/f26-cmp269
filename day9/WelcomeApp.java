@@ -3,6 +3,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
+import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
 public class WelcomeApp extends Application {
@@ -18,7 +19,7 @@ public class WelcomeApp extends Application {
       titleLabel.setText("Button Clicked!");
     });
 
-    VBox root = new VBox(15, titleLabel, actionButton);
+    HBox root = new HBox(15, titleLabel, actionButton);
     root.setStyle("-fx-padding: 20; -fx-alignment: center;");
 
     Scene scene = new Scene(root, 350, 200);

@@ -11,7 +11,6 @@ public class EmailForm extends Application {
 
     Scene scene = new Scene(registrationPane, 400, 300);
 
-
     stage.setTitle("Email Form");
     stage.setScene(scene);
     stage.show();
