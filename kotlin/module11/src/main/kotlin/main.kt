@@ -42,7 +42,6 @@ fun Application.configurePlugins() {
     }
 }
 
-
 fun Application.configureRouting() {
     // 4. ROUTING DSL & REQUEST/RESPONSE LIFECYCLE
     routing {
